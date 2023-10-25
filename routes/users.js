@@ -11,6 +11,9 @@ router.get('/computation', function(req, res, next){
     x = Math.random()*200;
   }
   res.send(`Math.floor(${x}) is: ${Math.floor(x)}`);
+  res.send(`Math.log2(${x}) is: ${Math.log2(x)}`);
+  res.send(`Math.cosh(${x}) is: ${Math.cosh(x)}`);
+
 });
 
 
